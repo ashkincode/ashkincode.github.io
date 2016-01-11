@@ -1,0 +1,32 @@
+title: Ashkin Blog
+description: 爱编程、爱设计、爱科技
+
+url: http://ashkincode.com
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+highlight: pygments
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - fenced_code_blocks
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: 首页
+   url: /index.html
+ - title: 关于
+   url: /about
+
+social:
+   github: ashkincode
+   twitter: ashkincode
+   email: 617624763@qq.com
+
+# google_analytics: "UA-58263416-1"
